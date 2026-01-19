@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Phone, MessageCircle } from 'lucide-react';
+import { Github, Linkedin, Mail, MessageCircle, Instagram, Camera, Gamepad2 } from 'lucide-react';
 
 interface SocialLink {
   name: string;
@@ -19,13 +19,19 @@ const socialLinks: SocialLink[] = [
     name: 'GitHub',
     url: 'https://github.com/Shsrma',
     icon: <Github className="w-5 h-5" />,
-    color: 'hsl(0, 0%, 70%)',
+    color: 'hsl(260, 100%, 70%)',
+  },
+  {
+    name: 'Kaggle',
+    url: 'https://www.kaggle.com/ankur20sharma',
+    icon: <Gamepad2 className="w-5 h-5" />,
+    color: 'hsl(195, 100%, 50%)',
   },
   {
     name: 'Email',
-    url: 'mailto:ankur.sharma2003920@gmail.com',
+    url: 'mailto:ankur.sharma2003920@outlook.com',
     icon: <Mail className="w-5 h-5" />,
-    color: 'hsl(0, 100%, 65%)',
+    color: 'hsl(200, 100%, 50%)',
   },
   {
     name: 'WhatsApp',
@@ -34,10 +40,16 @@ const socialLinks: SocialLink[] = [
     color: 'hsl(140, 70%, 50%)',
   },
   {
-    name: 'Phone',
-    url: 'tel:+919414407192',
-    icon: <Phone className="w-5 h-5" />,
-    color: 'hsl(var(--glow-cyan))',
+    name: 'Instagram',
+    url: 'https://www.instagram.com/ankur__sharmaaa/?__pwa=1',
+    icon: <Instagram className="w-5 h-5" />,
+    color: 'hsl(330, 100%, 60%)',
+  },
+  {
+    name: 'Snapchat',
+    url: 'https://www.snapchat.com/add/asharma231231',
+    icon: <Camera className="w-5 h-5" />,
+    color: 'hsl(55, 100%, 50%)',
   },
 ];
 
