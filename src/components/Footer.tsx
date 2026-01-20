@@ -108,8 +108,7 @@ const Footer = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
         >
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            © {currentYear} Ankur Sharma. Built with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> and code.
-          </p>
+            © {currentYear} Ankur Sharma.          </p>
           <p className="text-xs text-muted-foreground">
             Software Engineer | Web Developer | ML Enthusiast
           </p>
