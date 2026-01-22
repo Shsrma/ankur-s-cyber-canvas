@@ -14,7 +14,7 @@ import Projects from "./pages/Projects";
 import Certifications from "./pages/Certifications";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 const queryClient = new QueryClient();
 
 const App = () => {
@@ -37,6 +37,7 @@ const App = () => {
           <div className="relative min-h-screen">
             <ParticleBackground />
             <CursorGlow />
+            <Analytics />
             <Navbar />
             <main className="relative z-10">
               <Routes>
