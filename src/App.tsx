@@ -14,7 +14,7 @@ import Projects from "./pages/Projects";
 import Certifications from "./pages/Certifications";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import { Analytics } from "@vercel/analytics/next"js";
+import { Analytics } from "@vercel/analytics/next";
 const queryClient = new QueryClient();
 
 const App = () => {
